@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hanjin Kim</title>
+</head>
+<body>
+<canvas id="matrix-bg"></canvas>
+
+<div class="container">
+  <header>
+    <div class="logo">/home/hanjin_kim</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1 class="glitch-text">Hanjin Kim</h1>
+      <p class="subtitle">linux user</p>
+      <p style="color: #ccc; margin-bottom: 30px;">hating windows</p>
+      <button class="form-button" onclick="location.href='https://github.com/irhdab';">View my work</button>
+    </div>
+    <div class="hero-image">
+      <div class="terminal">
+        <div class="terminal-header">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="terminal-content">
+          <div class="terminal-line">$ ls</div>
+          <div class="terminal-line">dev.txt</div>
+          <div class="terminal-line">$ cat dev.txt</div>
+          <div class="terminal-line">Programmers are like little gods.</div>
+          <div class="terminal-line">they can create something they want</div>
+          <div class="terminal-line">or destroy it</div>
+          <div class="terminal-line">now, CREATE</div>
+          <div class="terminal-line">$ <span class="terminal-cursor"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2 class="section-title">Recent Projects(only web projects)</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3 class="project-title">OpenWorm website recreation</h3>
+        <p class="project-link"><a href="https://github.com/irhdab/openwormwebsite">Project Link</a></p>
+        <p class="project-description">made a recreation of openworm.org website</p>
+        <div class="project-tags">
+          <span class="project-tag">HTML</span>
+          <span class="project-tag">CSS</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3 class="project-title">Blog *on progress</h3>
+        <p class="project-link"><a href="https://github.com/irhdab/blog">Project Link</a></p>
+        <p class="project-description">making a simple site makes you able to post easy as hell</p>
+        <div class="project-tags">
+          <span class="project-tag">HTML</span>
+          <span class="project-tag">CSS</span>
+          <span class="project-tag">PHP</span>
+          <span class="project-tag">MDB</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3 class="project-title">Check TOR status and search</h3>
+        <p class="project-link"><a href="https://github.com/irhdab/Torcheck-torsearch">Project Link</a></p>
+        <p class="project-link"><a href="https://check-tor-n-search-53rh9.kinsta.page/">Demo Link</a></p>
+        <p class="project-description">Check your tor status and make you safely search thorugh tor</p>
+        <div class="project-tags">
+          <span class="project-tag">HTML</span>
+          <span class="project-tag">JS</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3 class="project-title">.bat admin privileges</h3>
+        <p class="project-link"><a href="https://github.com/irhdab/AdminBatch">Project Link</a></p>
+        <p class="project-description">makes your .bat file have admin privileges</p>
+        <div class="project-tags">
+          <span class="project-tag">Batchfile</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3 class="project-title">Hack your Chrome dino!</h3>
+        <p class="project-link"><a href="https://github.com/irhdab/ChromedinoHacking">Project Link</a></p>
+        <p class="project-description">have fun! LOL</p>
+        <div class="project-tags">
+          <span class="project-tag">JS</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-image"><img src="https://imgs.xkcd.com/comics/real_programmers.png"></div>
+    <div class="about-content">
+      <h2 class="section-title">About Me</h2>
+      <p class="about-text">a student, a web programmer(personaly learning node.js for backend, and learning mysql for database), Korean a positive human, and a boring programmer </p>
+      <h3 style="color: #fff; margin-bottom: 15px;">My Skills</h3>
+      <div class="skills">
+        <span class="skill">HTML5</span>
+        <span class="skill">CSS3</span>
+        <span class="skill">JavaScript(only some basical)</span>
+        <span class="skill">Svelte</span>
+        <span class="skill">Python(GUI, AI-tensorflow)</span>
+        <span class="skill">C#</span>
+        <span class="skill">R</span>
+        <span class="skill">Google Cloud</span>
+        <span class="skill">Web Security</span>
+        <span class="skill">System Sercurity</span>
+        <span class="skill">Linux(Debian, Fedora, and learning to deal with Arch)</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="contact-form">
+      <span>
+        <a href="mailto:hdab@keemail.me">hdab@keemail.me</a>
+      </span>
+    </div>
+  </section>
+
+  <footer>
+    <div class="social-links">
+      <a href="https://github.com/irhdab" class="social-link">GitHub</a>
+    </div>
+    <p class="copyright">© NO rights reserved. i dont give a fuk if u use my code or not</p>
+  </footer>
+</div>
+
+<script src="animation.js">console.log('hehe')</script>
+</body>
+</html>
